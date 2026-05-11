@@ -9,6 +9,7 @@ import { CoinbaseParser } from './coinbase';
 import { StrikeParser } from './strike';
 import { Bitcoin21Parser } from './bitcoin21';
 import { RiverParser } from './river';
+import { RevolutXParser } from './revolutx';
 import { LegacyParser } from './legacy';
 import { StandardParser } from './standard';
 
@@ -24,6 +25,7 @@ const PARSERS: Parser[] = [
   new StrikeParser(),
   new Bitcoin21Parser(),
   new RiverParser(),
+  new RevolutXParser(),
   new LegacyParser(),
   new StandardParser(), // Fallback parser - should be last
 ];
